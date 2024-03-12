@@ -51,3 +51,9 @@ O Projeto Saúde Conecta é um site de clinica de saúde, onde o cliente pode ag
 ### **Resultados esperados com o projeto desenvolvido**
 
 ### **Recursos para monitoração e acompanhamento do projeto**
+
+O repositório está organizado da seguinte forma:
+
+- `src/`: Contém os códigos fonte desenvolvidos para o projeto.
+
+- `docs/`: Contém todos documentos do projeto.
