@@ -6,6 +6,7 @@
 A identidade visual do projeto segue sendo feita e em breve iremos trazer como é o design do nosso projeto.
 
 ### **Redes Sociais**
+As redes sociais do projeto ainda está em processo de criação junto com o design.
 
 ### **Equipe**
 A equipe é formada por: Ageu Moraes, Ciro Guilherme, Gabriel Alves e João Pedro
