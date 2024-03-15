@@ -3,7 +3,7 @@
 ## **Identification**
 
 ### **Visual Identification**
-<img height="400px" src="src/assets/digital-dash.jpeg">
+<img alt="Website Logo" height="400px" src="src/assets/digital-dash.jpeg">
 
 - Symbol: The blue arrow represents speed, movement and progress, conveying the idea that the company is dynamic and constantly evolving.
 
