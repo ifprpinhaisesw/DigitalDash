@@ -3,7 +3,7 @@
 ## **Identification**
 
 ### **Visual Identification**
-![Web site logo](src/assets/digital-dash.jpeg)
+<img height="400px" src="src/assets/digital-dash.jpeg">
 
 - Symbol: The blue arrow represents speed, movement and progress, conveying the idea that the company is dynamic and constantly evolving.
 
@@ -33,32 +33,34 @@ The project creation date is 03/05/2024
 
 Establish Digital Dash as a leading platform in the e-commerce market, providing exceptional, diverse, and convenient online shopping experience for consumers, while driving sustainable business growth and fostering technological innovation.   
 
-### **Escopo do Projeto**
+### **Project Scope**
 
 - Product Description (MVP) of the project
 - Main project deliverables
 - Project objectives (quantifiable items that determine whether the project was a success or not)
 - Product acceptance criteria
 
-## **Matriz de Riscos**
+## **Risk Matrix**
 
-## **Organização do Projeto**
+## **Project Organization**
 
-### **Cronograma**
+### **Timeline**
 
-### **Dependência entre atividades e duração para cada atividade**
+### **Dependence between activities and duration for each activity**
 
-### **Organização da Equipe**
+### **Team Organization**
 
-### **Envolvidos em cada atividade, papel e responsabilidade dos membros da equipe**
+### **Involved in each activity, role and responsibility of team members**
 
-## **Conclusão**
+## **Conclusion**
 
-### **Recursos que serão utilizados (tecnologias, ferramentas de apoio, linguagem de programação)**
+### **Resources that will be used (technologies, support tools, programming language)**
 
-### **Resultados esperados com o projeto desenvolvido**
+The programming languages ​​used are PHP, JavaScript, SQL
 
-### **Recursos para monitoração e acompanhamento do projeto**
+### **Expected results from the developed project**
+
+### **Resources for monitoring and monitoring the project**
 
 The repository is organized as follows:
 
