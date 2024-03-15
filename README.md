@@ -1,36 +1,44 @@
-# **Saúde Conecta**
+# **Digital Dash**
 
-## **Identificação**
+## **Identification**
 
-### **Identidade Visual**
-A identidade visual do projeto segue sendo feita e em breve iremos trazer como é o design do nosso projeto.
+### **Visual Identification**
+![Web site logo](src/assets/digital-dash.jpeg)
+
+- Symbol: The blue arrow represents speed, movement and progress, conveying the idea that the company is dynamic and constantly evolving.
+
+- Name: The word "Digital" in green refers to the company's area of ​​activity, while "Dash" reinforces the concept of speed and agility.
+
+- Colours: Blue is associated with trust, security and professionalism, while green evokes growth, innovation and creativity.
+
+- Typography: The font used is modern and legible, conveying a professional and up-to-date image of the company.
 
 ### **Redes Sociais**
-As redes sociais do projeto ainda está em processo de criação junto com o design.
+The project's social networks are still in the creation process.
 
-### **Equipe**
-A equipe é formada por: Ageu Moraes, Ciro Guilherme, Gabriel Alves e João Pedro
+### **Team**
+The team is made up of: Ageu Moraes, Ciro Guilherme, Gabriel Alves and João Pedro
 
-Gerente de Projeto: Gabriel Alves
+Project Manager: Gabriel Alves
 
-Time de Desenvolvimento: Ageu Moraes, Ciro Guilherme e João Pedro
+Development Team: Ageu Moraes, Ciro Guilherme and João Pedro
 
-### **Data de Criação**
+### **Date created**
 
-A data de criação do projeto é o dia 05/03/2024
+The project creation date is 03/05/2024
 
-## **Introdução**
+## **Introduction**
 
-### **Objetivo**
+### **Purpose**
 
-O Projeto Saúde Conecta é um site de clinica de saúde, onde o cliente pode agendar uma consulta, acesso a resultados de exames e uma comunidade engajada para compartilhar experiências e feedbacks sobre o setor da saúde.
+Establish Digital Dash as a leading platform in the e-commerce market, providing exceptional, diverse, and convenient online shopping experience for consumers, while driving sustainable business growth and fostering technological innovation.   
 
 ### **Escopo do Projeto**
 
-- Descrição do produto (MVP) do projeto
-- Principais entregas do projeto
-- Objetivos do projeto (itens quantificáveis que determinam se o projeto foi um sucesso ou não)
-- Critérios de aceitação do produto
+- Product Description (MVP) of the project
+- Main project deliverables
+- Project objectives (quantifiable items that determine whether the project was a success or not)
+- Product acceptance criteria
 
 ## **Matriz de Riscos**
 
@@ -52,8 +60,8 @@ O Projeto Saúde Conecta é um site de clinica de saúde, onde o cliente pode ag
 
 ### **Recursos para monitoração e acompanhamento do projeto**
 
-O repositório está organizado da seguinte forma:
+The repository is organized as follows:
 
-- `src/`: Contém os códigos fonte desenvolvidos para o projeto.
+- `src/`: Contains the source codes developed for the project.
 
-- `docs/`: Contém todos documentos do projeto.
+- `docs/`: Contains all project documents.
