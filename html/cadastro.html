@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <!-- Definição do conjunto de caracteres e configuração inicial para dispositivos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Inclusão de um arquivo de estilo CSS localizado na pasta "../css/" -->
+    <link rel="stylesheet" href="../css/cadastro.css">
+
+    <!-- Inclusão da biblioteca FontAwesome para ícones -->
+    <link rel="stylesheet" href="../fontawesome-free-web/css/all.css">
+
+    <!-- Inclusão de scripts JavaScript com atraso na execução -->
+    <script defer src="../js/cadastrar.js"></script>
+    <script defer src="../js/index.js"></script>
+
+    <!-- Inclusão de uma biblioteca externa CryptoJS para manipulação de criptografia -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+
+    <!-- Título da página -->
+    <title>E-letronic: Cadastro </title>
+</head>
+
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <table>
+            <tr>
+                <!-- Logo que redireciona para 'index.html' ao ser clicado -->
+                <td><img onclick="window.location.href = 'index.html'" src="../img/images.png" id="logo" width="100px"></td>
+                </td>
+                <div class="menu">
+                    <!-- Botão para exibir o menu -->
+                    <button class="menu-button"><i class="fa-solid fa-bars"></i></button>
+                    <!-- Links do menu -->
+                    <div class="menu-links">
+                        <a href="carrinho.html"><i class="fa-solid fa-shopping-cart"></i> Carrinho</a>
+                        <a href="index.html"><i class="fa-solid fa-bolt"></i> Início</a>
+                        <a href="autenticar.html"><i class="fa-solid fa-sign-in-alt"></i> Autenticar</a>
+                        <a href="" id="sair" onclick="sair(); window.location.reload();"><i class="fa-solid fa-right-from-bracket"></i> Sair</a>
+                    </div>
+                </div>
+            </tr>
+        </table>
+    </header>
+    <br><br><br>
+
+    <!-- Card de cadastro -->
+    <div class="card-cadastro">
+        <!-- Campo de cadastro de nome de usuário -->
+        <div class="cadastro-nome">
+            <!-- Ícone de usuário -->
+            <i id="input-user" class="fa-solid fa-user"></i>
+            <!-- Campo de entrada de texto para o nome de usuário -->
+            <input type="text" class="nome" id="nome" placeholder="Nome de usuário">
+        </div>
+
+        <!-- Campo de cadastro de email -->
+        <div class="cadastro-email">
+            <!-- Ícone de envelope -->
+            <i class="fa-solid fa-envelope"></i>
+            <!-- Campo de entrada de texto para o email -->
+            <input type="text" class="email" id="email" placeholder="Email">
+        </div>
+
+        <!-- Campo de cadastro de senha -->
+        <div class="cadastro-senha">
+            <!-- Ícone de cadeado -->
+            <i class="fa-solid fa-lock"></i>
+            <!-- Campo de entrada de texto para a senha -->
+            <input type="password" class="senha" id="senha" placeholder="Senha">
+        </div>
+
+        <!-- Campo de confirmação de senha -->
+        <div class="cadastro-senha">
+            <!-- Ícone de cadeado -->
+            <i class="fa-solid fa-lock"></i>
+            <!-- Campo de entrada de texto para a confirmação de senha -->
+            <input type="password" class="confirmar-senha" id="confirmar-senha" placeholder="Confirmar senha">
+        </div>
+
+        <!-- Botão para cadastrar, chamando a função "cadastrar" -->
+        <div class="cadastrar" onclick="cadastrar()">
+            <!-- Ícone de adição de usuário -->
+            <i class="fa-solid fa-user-plus"></i> CADASTRAR
+        </div>
+    </div>
+</body>
+
+</html>

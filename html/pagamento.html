@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <!-- Definição do conjunto de caracteres e configuração inicial para dispositivos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Inclusão de um arquivo de estilo CSS localizado na pasta "../css/" -->
+    <link rel="stylesheet" href="../css/index.css">
+
+    <!-- Inclusão da biblioteca FontAwesome para ícones -->
+    <link rel="stylesheet" href="../fontawesome-free-web/css/all.css">
+
+    <!-- Inclusão de script JavaScript com atraso na execução para manipulação do pagamento -->
+    <script defer src="../js/pagamento.js"></script>
+
+    <!-- Título da página -->
+    <title>Pagamento </title>
+</head>
+
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <table>
+            <tr>
+                <!-- Logo que redireciona para 'index.html' ao ser clicado -->
+                <td><img onclick="window.location.href = 'index.html'" src="../img/images.png" id="logo" width="100px"></td>
+
+                <!-- Área para exibição do ícone de usuário e nome do usuário -->
+                <div class="usuario-session">
+                    <i class="fa-solid fa-circle-user"></i><div id="usuario"></div>
+                </div>
+
+                <!-- Exibição do ícone de admin -->
+                <div id="admin-page"></div>
+
+                <!-- Botão para exibir o menu -->
+                <div class="menu">
+                    <button class="menu-button"><i class="fa-solid fa-bars"></i></button>
+
+                    <!-- Links do menu -->
+                    <div class="menu-links">
+                        <a href="index.html"><i class="fa-solid fa-bolt"></i> Início</a>
+                        <a href="carrinho.html"><i class="fa-solid fa-shopping-cart"></i> Carrinho</a>
+                        <a href="cadastro.html"><i class="fa-solid fa-user"></i> Cadastrar</a>
+                        <a href="autenticar.html"><i class="fa-solid fa-sign-in-alt"></i> Autenticar</a>
+                        <a href="" id="sair" onclick="sair(); window.location.reload();"><i class="fa-solid fa-right-from-bracket"></i> Sair</a>
+                    </div>
+                </div>
+            </tr>
+        </table>
+    </header>
+    <br><br><br>
+
+    <!-- Área do cabeçalho para navegação no processo de pagamento -->
+    <div class="header-pagamento">
+        <!-- Ícone e texto para revisar detalhes da compra -->
+        <div id="revisar-pagamento"><i id="revisar" class="fa-solid fa-bag-shopping"></i> Revisar detalhes da compra</div>
+        <!-- Ícone e texto para selecionar tipo de pagamento -->
+        <div id="tipo-pagamento"><i id="pagamento" class="fa-solid fa-credit-card"></i> Tipo do pagamento</div>
+        <!-- Ícone e texto para visualizar detalhes do pagamento -->
+        <div id="detalhes-pagamento"><i id="detalhes" class="fa-solid fa-magnifying-glass"></i> Detalhes do pagamento</div>
+        <!-- Ícone e texto para finalizar a compra -->
+        <div id="finalizar-compra"><i id="finalizar" class="fa-solid fa-cash-register"></i> Finalizar compra</div>
+    </div>
+
+    <!-- Área onde o conteúdo do pagamento será carregado dinamicamente -->
+    <div id="carregar"></div>
+
+</body>
+
+</html>
