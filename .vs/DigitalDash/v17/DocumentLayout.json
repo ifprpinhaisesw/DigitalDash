@@ -13,10 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Ciro\\DigitalDash\\sql\\loja_ecommerce.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sql\\loja_ecommerce.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Ciro\\DigitalDash\\sql\\loja_ecommerce.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sql\\loja_ecommerce.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,13 +48,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "loja_ecommerce.sql ",
+              "Title": "loja_ecommerce.sql",
               "DocumentMoniker": "C:\\Ciro\\DigitalDash\\sql\\loja_ecommerce.sql",
               "RelativeDocumentMoniker": "sql\\loja_ecommerce.sql",
-              "ToolTip": "loja_ecommerce.sql ",
+              "ToolTip": "C:\\Ciro\\DigitalDash\\sql\\loja_ecommerce.sql",
+              "RelativeToolTip": "sql\\loja_ecommerce.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-07-04T15:34:39.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T15:34:39.37Z"
             },
             {
               "$type": "Document",
@@ -70,8 +66,7 @@
               "RelativeToolTip": "html\\index.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-04T15:33:37.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T15:33:37.791Z"
             }
           ]
         }
