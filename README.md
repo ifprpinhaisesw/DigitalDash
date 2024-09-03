@@ -59,6 +59,16 @@ Establish Digital Dash as a leading platform in the e-commerce market, providing
 The programming languages ​​used are PHP, JavaScript, SQL
 
 ### **Expected results from the developed project**
+**Functionality**: The e-commerce system was successfully implemented, including purchases, sales, easy navigation, and reservations.
+**Performance**: The website performed well on compatible browsers and on the Apache server, with good response times.
+**Functional Requirements**: All functional requirements were met, such as a user-friendly interface and access control.
+**Non-Functional Requirements**: Developed to be accessible via the web, with high customization and good performance under various connectivity conditions.
+**Usability**: The interface was intuitive and easy to use.
+**User Experience**: It provided an efficient and adaptable buying and selling experience.
+**Positive Impact**: It improved the online experience and helped attract more customers.
+**Benefits**: It offered a scalable and flexible solution for the future.
+**Challenges**: Adjustments to requirements and schedule were necessary.
+**Lessons Learned**: Detailed planning and good communication are essential.
 
 ### **Resources for monitoring and monitoring the project**
 
