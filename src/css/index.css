@@ -1,6 +1,6 @@
 body{
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
-    background: color #f5f5f5;
+    background-color: rgb(197, 218, 238);
 }
 
 
@@ -37,10 +37,10 @@ a {
 }
 
 header{
-    background-color: #D50C1B;
+    background-color: white;
     width: 100%;
     height: 107px;
-    border: solid none;
+    border: black solid;
     border-radius: 5px;
     box-sizing: content-box;
     box-shadow: black;
@@ -83,6 +83,7 @@ header{
 }
 
 .pesquisa{
+    background-color: rgb(197, 218, 238);
     width: 120vh;
     height: 50px;
     display: flex;
@@ -90,7 +91,7 @@ header{
     right: 100;
     outline: none;
     top: 50%;
-    border: none;
+    border: black solid;
     padding: 25px;
     font-size: 25px;
     margin-left: 15px;
