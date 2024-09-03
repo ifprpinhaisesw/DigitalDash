@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <!-- Definição do conjunto de caracteres e configuração inicial para dispositivos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Inclusão de um arquivo de estilo CSS localizado na pasta "../css/" -->
+    <link rel="stylesheet" href="../css/adm.css">
+
+    <!-- Inclusão de um arquivo JavaScript localizado na pasta "../js/" com atraso na execução -->
+    <script src="../js/adm.js" defer></script>
+
+    <!-- Inclusão da biblioteca FontAwesome para ícones -->
+    <link rel="stylesheet" href="../fontawesome-free-web/css/all.css">
+
+    <!-- Segunda definição do viewport (repetição desnecessária) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título da página -->
+    <title>Administração</title>
+</head>
+
+<body>
+    <!-- Card para adicionar produto -->
+    <div class="card">
+        <!-- Título do card -->
+        <div class="tituloCard">Bem-vindo ADM! Cadastre o produto abaixo:</div>
+
+        <!-- Campo de upload de arquivo -->
+        <div class="arquivo">
+            <input id="arquivo" type="file">
+            <label for="arquivo" class="arquivo-label">
+                <!-- Ícone de upload -->
+                <i class="fas fa-file-upload"></i> Escolha um arquivo
+            </label>
+        </div>
+
+        <!-- Campo para inserir o nome do produto -->
+        <div class="nomeProduto">
+            <input id="nome" class="caixa" type="text" name="nome" placeholder="Nome do Produto" /><br><br>
+        </div>
+
+        <!-- Campo para inserir o preço do produto -->
+        <div class="precoProduto">
+            <input id="preco" class="caixa" type="number" name="preco" placeholder="Preço do Produto" /><br><br>
+        </div>
+
+        <!-- Botão para adicionar produto, chamando a função "gravar" e recarregando a página -->
+        <div class="botaoProduto">
+            <button class="caixa" onclick="gravar(); window.location.reload();">Adicionar</button><br>
+        </div>
+    </div>
+
+    <!-- Card para deletar produto -->
+    <div class="card-delete">
+        <!-- Título do card de deletar -->
+        <div class="tituloDelete">Bem-vindo ADM! Delete o produto abaixo:</div>
+
+        <!-- Área da imagem a ser deletada -->
+        <div class="imagemDelete">
+        </div>
+
+        <!-- Dropdown para selecionar um produto para deletar -->
+        <div class="idProduto">
+            <select name="produtos" id="produtos">
+                <option value="" disabled selected>Selecione um produto para deletar</option>
+            </select><br><br>
+        </div>
+
+        <!-- Botão para deletar produto, chamando a função "deletar" e recarregando a página -->
+        <div class="botaoDeletar">
+            <button class="caixa" onclick="deletar(); window.location.reload();">Deletar</button><br>
+        </div>
+    </div>
+</body>
+
+</html>
